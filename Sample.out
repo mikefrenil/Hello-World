@@ -1,0 +1,584 @@
+Final Output
+------------
+0 0	0
+0 1	1
+0 2	8
+0 3	27
+0 4	64
+1 0	1
+1 1	0
+1 2	2
+1 3	7
+1 4	14
+2 0	4
+2 1	2
+2 2	1
+2 3	2
+2 4	8
+3 0	9
+3 1	5
+3 2	3
+3 3	1
+3 4	3
+4 0	16
+4 1	10
+4 2	6
+4 3	4
+4 4	1
+
+Log
+---
+I : 1 J : 1 W: 0 CHARS: AA
+I : 1 J : 2 W: 1 CHARS: AB
+I : 1 J : 3 W: 8 CHARS: AC
+I : 1 J : 4 W: 27 CHARS: AD
+I : 2 J : 1  W: 1 S: CA
+I : 3 J : 1  W: 4 S: CA
+I : 4 J : 1  W: 9 S: DA
+T :: 1
+I: 0 J: 0 W:0MAX: 1 MIN : 1 JCOND : 2
+I MIN succeeded
+I: 0 J: 1 W:1MAX: 1 MIN : 1 JCOND : 2
+I MIN succeeded
+I: 0 J: 2 W:8MAX: 1 MIN : 1 JCOND : 2
+I MIN succeeded
+j COND succeeded
+I: 0 J: 3 W:27MAX: 1 MIN : 1 JCOND : 2
+I MIN succeeded
+I: 0 J: 4 W:64MAX: 1 MIN : 1 JCOND : 2
+I MIN succeeded
+I: 1 J: 0 W:1MAX: 1 MIN : 1 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 1 W:0MAX: 1 MIN : 1 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 2 J : 2  W: 0 S: CB
+I : 1 J : 2 W: 0 Ins: 3
+I : 1 J : 3 W: 0 Ins: 8
+I : 1 J : 4 W: 0 Ins: 15
+I : 2 J : 1 W: 0 Ins: 3
+I : 3 J : 1 W: 0 Ins: 8
+I : 4 J : 1 W: 0 Ins: 15
+I: 1 J: 2 W:2MAX: 1 MIN : 1 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 3 W:9MAX: 1 MIN : 1 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 4 W:28MAX: 1 MIN : 1 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 0 W:4MAX: 1 MIN : 1 JCOND : 0
+I MAX succeeded
+j COND succeeded
+I: 2 J: 1 W:2MAX: 1 MIN : 1 JCOND : 0
+I MAX succeeded
+I: 2 J: 2 W:12MAX: 1 MIN : 1 JCOND : 0
+I MAX succeeded
+I: 2 J: 3 W:31MAX: 1 MIN : 1 JCOND : 0
+I MAX succeeded
+I: 2 J: 4 W:68MAX: 1 MIN : 1 JCOND : 0
+I MAX succeeded
+I: 3 J: 0 W:9MAX: 1 MIN : 1 JCOND : -1
+I MAX succeeded
+I: 3 J: 1 W:5MAX: 1 MIN : 1 JCOND : -1
+I MAX succeeded
+I: 3 J: 2 W:17MAX: 1 MIN : 1 JCOND : -1
+I MAX succeeded
+I: 3 J: 3 W:36MAX: 1 MIN : 1 JCOND : -1
+I MAX succeeded
+I: 3 J: 4 W:73MAX: 1 MIN : 1 JCOND : -1
+I MAX succeeded
+I: 4 J: 0 W:16MAX: 1 MIN : 1 JCOND : -2
+I MAX succeeded
+I: 4 J: 1 W:10MAX: 1 MIN : 1 JCOND : -2
+I MAX succeeded
+I: 4 J: 2 W:24MAX: 1 MIN : 1 JCOND : -2
+I MAX succeeded
+I: 4 J: 3 W:43MAX: 1 MIN : 1 JCOND : -2
+I MAX succeeded
+I: 4 J: 4 W:80MAX: 1 MIN : 1 JCOND : -2
+I MAX succeeded
+T :: 2
+I: 0 J: 0 W:0MAX: 1 MIN : 2 JCOND : 3
+I MIN succeeded
+I: 0 J: 1 W:1MAX: 1 MIN : 2 JCOND : 3
+I MIN succeeded
+I: 0 J: 2 W:8MAX: 1 MIN : 2 JCOND : 3
+I MIN succeeded
+I: 0 J: 3 W:27MAX: 1 MIN : 2 JCOND : 3
+I MIN succeeded
+j COND succeeded
+I: 0 J: 4 W:64MAX: 1 MIN : 2 JCOND : 3
+I MIN succeeded
+I: 1 J: 0 W:1MAX: 1 MIN : 2 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 1 W:0MAX: 1 MIN : 2 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 2 W:2MAX: 1 MIN : 2 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 2 J : 3  W: 2 S: CC
+I : 1 J : 3 W: 2 Ins: 5
+I : 1 J : 4 W: 2 Ins: 12
+I : 2 J : 2 W: 2 Ins: 3
+I : 3 J : 2 W: 2 Ins: 8
+I : 4 J : 2 W: 2 Ins: 15
+I: 1 J: 3 W:8MAX: 1 MIN : 2 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 4 W:15MAX: 1 MIN : 2 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 0 W:4MAX: 1 MIN : 2 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 1 W:2MAX: 1 MIN : 2 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 3 J : 2  W: 2 S: CB
+I : 2 J : 2 W: 2 Ins: 3
+I : 2 J : 3 W: 2 Ins: 8
+I : 2 J : 4 W: 2 Ins: 15
+I : 3 J : 1 W: 2 Ins: 5
+I : 4 J : 1 W: 2 Ins: 12
+I: 2 J: 2 W:1MAX: 1 MIN : 2 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 3 W:31MAX: 1 MIN : 2 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 4 W:68MAX: 1 MIN : 2 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 0 W:9MAX: 1 MIN : 2 JCOND : 0
+I MAX succeeded
+j COND succeeded
+I: 3 J: 1 W:5MAX: 1 MIN : 2 JCOND : 0
+I MAX succeeded
+I: 3 J: 2 W:17MAX: 1 MIN : 2 JCOND : 0
+I MAX succeeded
+I: 3 J: 3 W:36MAX: 1 MIN : 2 JCOND : 0
+I MAX succeeded
+I: 3 J: 4 W:73MAX: 1 MIN : 2 JCOND : 0
+I MAX succeeded
+I: 4 J: 0 W:16MAX: 1 MIN : 2 JCOND : -1
+I MAX succeeded
+I: 4 J: 1 W:10MAX: 1 MIN : 2 JCOND : -1
+I MAX succeeded
+I: 4 J: 2 W:24MAX: 1 MIN : 2 JCOND : -1
+I MAX succeeded
+I: 4 J: 3 W:43MAX: 1 MIN : 2 JCOND : -1
+I MAX succeeded
+I: 4 J: 4 W:80MAX: 1 MIN : 2 JCOND : -1
+I MAX succeeded
+T :: 3
+I: 0 J: 0 W:0MAX: 1 MIN : 3 JCOND : 4
+I MIN succeeded
+I: 0 J: 1 W:1MAX: 1 MIN : 3 JCOND : 4
+I MIN succeeded
+I: 0 J: 2 W:8MAX: 1 MIN : 3 JCOND : 4
+I MIN succeeded
+I: 0 J: 3 W:27MAX: 1 MIN : 3 JCOND : 4
+I MIN succeeded
+I: 0 J: 4 W:64MAX: 1 MIN : 3 JCOND : 4
+I MIN succeeded
+j COND succeeded
+I: 1 J: 0 W:1MAX: 1 MIN : 3 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 1 W:0MAX: 1 MIN : 3 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 2 W:2MAX: 1 MIN : 3 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 3 W:7MAX: 1 MIN : 3 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 2 J : 4  W: 7 S: CD
+I : 1 J : 4 W: 7 Ins: 7
+I : 2 J : 3 W: 7 Ins: 3
+I : 3 J : 3 W: 7 Ins: 8
+I : 4 J : 3 W: 7 Ins: 15
+I: 1 J: 4 W:14MAX: 1 MIN : 3 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 0 W:4MAX: 1 MIN : 3 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 1 W:2MAX: 1 MIN : 3 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 2 W:1MAX: 1 MIN : 3 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 3 J : 3  W: 1 S: CC
+I : 2 J : 3 W: 1 Ins: 5
+I : 2 J : 4 W: 1 Ins: 12
+I : 3 J : 2 W: 1 Ins: 5
+I : 4 J : 2 W: 1 Ins: 12
+I: 2 J: 3 W:2MAX: 1 MIN : 3 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 4 W:17MAX: 1 MIN : 3 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 0 W:9MAX: 1 MIN : 3 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 1 W:5MAX: 1 MIN : 3 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 4 J : 2  W: 5 S: DB
+I : 3 J : 2 W: 5 Ins: 3
+I : 3 J : 3 W: 5 Ins: 8
+I : 3 J : 4 W: 5 Ins: 15
+I : 4 J : 1 W: 5 Ins: 7
+I: 3 J: 2 W:3MAX: 1 MIN : 3 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 3 W:36MAX: 1 MIN : 3 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 4 W:73MAX: 1 MIN : 3 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 0 W:16MAX: 1 MIN : 3 JCOND : 0
+I MAX succeeded
+j COND succeeded
+I: 4 J: 1 W:10MAX: 1 MIN : 3 JCOND : 0
+I MAX succeeded
+I: 4 J: 2 W:17MAX: 1 MIN : 3 JCOND : 0
+I MAX succeeded
+I: 4 J: 3 W:43MAX: 1 MIN : 3 JCOND : 0
+I MAX succeeded
+I: 4 J: 4 W:80MAX: 1 MIN : 3 JCOND : 0
+I MAX succeeded
+T :: 4
+I: 0 J: 0 W:0MAX: 1 MIN : 4 JCOND : 5
+I MIN succeeded
+I: 0 J: 1 W:1MAX: 1 MIN : 4 JCOND : 5
+I MIN succeeded
+I: 0 J: 2 W:8MAX: 1 MIN : 4 JCOND : 5
+I MIN succeeded
+I: 0 J: 3 W:27MAX: 1 MIN : 4 JCOND : 5
+I MIN succeeded
+I: 0 J: 4 W:64MAX: 1 MIN : 4 JCOND : 5
+I MIN succeeded
+I: 1 J: 0 W:1MAX: 1 MIN : 4 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 1 W:0MAX: 1 MIN : 4 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 2 W:2MAX: 1 MIN : 4 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 3 W:7MAX: 1 MIN : 4 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 4 W:14MAX: 1 MIN : 4 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 2 J : 4 W: 14 Ins: 3
+I : 3 J : 4 W: 14 Ins: 8
+I : 4 J : 4 W: 14 Ins: 15
+I: 2 J: 0 W:4MAX: 1 MIN : 4 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 1 W:2MAX: 1 MIN : 4 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 2 W:1MAX: 1 MIN : 4 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 3 W:2MAX: 1 MIN : 4 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 3 J : 4  W: 2 S: CD
+I : 2 J : 4 W: 2 Ins: 7
+I : 3 J : 3 W: 2 Ins: 5
+I : 4 J : 3 W: 2 Ins: 12
+I: 2 J: 4 W:8MAX: 1 MIN : 4 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 0 W:9MAX: 1 MIN : 4 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 1 W:5MAX: 1 MIN : 4 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 2 W:3MAX: 1 MIN : 4 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 4 J : 3  W: 3 S: DC
+I : 3 J : 3 W: 3 Ins: 5
+I : 3 J : 4 W: 3 Ins: 12
+I : 4 J : 2 W: 3 Ins: 7
+I: 3 J: 3 W:1MAX: 1 MIN : 4 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 4 W:20MAX: 1 MIN : 4 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 0 W:16MAX: 1 MIN : 4 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 1 W:10MAX: 1 MIN : 4 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 4 J : 2 W: 10 Ins: 3
+I : 4 J : 3 W: 10 Ins: 8
+I : 4 J : 4 W: 10 Ins: 15
+I: 4 J: 2 W:6MAX: 1 MIN : 4 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 3 W:22MAX: 1 MIN : 4 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 4 W:80MAX: 1 MIN : 4 JCOND : 1
+I MAX succeeded
+I MIN succeeded
+T :: 5
+I: 0 J: 0 W:0MAX: 1 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 0 J: 1 W:1MAX: 1 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 0 J: 2 W:8MAX: 1 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 0 J: 3 W:27MAX: 1 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 0 J: 4 W:64MAX: 1 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 1 J: 0 W:1MAX: 1 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 1 W:0MAX: 1 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 2 W:2MAX: 1 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 3 W:7MAX: 1 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 1 J: 4 W:14MAX: 1 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 0 W:4MAX: 1 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 1 W:2MAX: 1 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 2 W:1MAX: 1 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 3 W:2MAX: 1 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 4 W:8MAX: 1 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 3 J : 4 W: 8 Ins: 5
+I : 4 J : 4 W: 8 Ins: 12
+I: 3 J: 0 W:9MAX: 1 MIN : 5 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 1 W:5MAX: 1 MIN : 5 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 2 W:3MAX: 1 MIN : 5 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 3 W:1MAX: 1 MIN : 5 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 4 J : 4  W: 1 S: DD
+I : 3 J : 4 W: 1 Ins: 7
+I : 4 J : 3 W: 1 Ins: 7
+I: 3 J: 4 W:3MAX: 1 MIN : 5 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 0 W:16MAX: 1 MIN : 5 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 1 W:10MAX: 1 MIN : 5 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 2 W:6MAX: 1 MIN : 5 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 4 J : 3 W: 6 Ins: 5
+I : 4 J : 4 W: 6 Ins: 12
+I: 4 J: 3 W:4MAX: 1 MIN : 5 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 4 W:25MAX: 1 MIN : 5 JCOND : 2
+I MAX succeeded
+I MIN succeeded
+T :: 6
+I: 0 J: 0 W:0MAX: 2 MIN : 5 JCOND : 7
+I MIN succeeded
+I: 0 J: 1 W:1MAX: 2 MIN : 5 JCOND : 7
+I MIN succeeded
+I: 0 J: 2 W:8MAX: 2 MIN : 5 JCOND : 7
+I MIN succeeded
+I: 0 J: 3 W:27MAX: 2 MIN : 5 JCOND : 7
+I MIN succeeded
+I: 0 J: 4 W:64MAX: 2 MIN : 5 JCOND : 7
+I MIN succeeded
+I: 1 J: 0 W:1MAX: 2 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 1 J: 1 W:0MAX: 2 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 1 J: 2 W:2MAX: 2 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 1 J: 3 W:7MAX: 2 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 1 J: 4 W:14MAX: 2 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 2 J: 0 W:4MAX: 2 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 1 W:2MAX: 2 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 2 W:1MAX: 2 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 3 W:2MAX: 2 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 2 J: 4 W:8MAX: 2 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 0 W:9MAX: 2 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 1 W:5MAX: 2 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 2 W:3MAX: 2 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 3 W:1MAX: 2 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 4 W:3MAX: 2 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 4 J : 4 W: 3 Ins: 7
+I: 4 J: 0 W:16MAX: 2 MIN : 5 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 1 W:10MAX: 2 MIN : 5 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 2 W:6MAX: 2 MIN : 5 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 3 W:4MAX: 2 MIN : 5 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
+I : 4 J : 4 W: 4 Ins: 7
+I: 4 J: 4 W:1MAX: 2 MIN : 5 JCOND : 3
+I MAX succeeded
+I MIN succeeded
+T :: 7
+I: 0 J: 0 W:0MAX: 3 MIN : 5 JCOND : 8
+I MIN succeeded
+I: 0 J: 1 W:1MAX: 3 MIN : 5 JCOND : 8
+I MIN succeeded
+I: 0 J: 2 W:8MAX: 3 MIN : 5 JCOND : 8
+I MIN succeeded
+I: 0 J: 3 W:27MAX: 3 MIN : 5 JCOND : 8
+I MIN succeeded
+I: 0 J: 4 W:64MAX: 3 MIN : 5 JCOND : 8
+I MIN succeeded
+I: 1 J: 0 W:1MAX: 3 MIN : 5 JCOND : 7
+I MIN succeeded
+I: 1 J: 1 W:0MAX: 3 MIN : 5 JCOND : 7
+I MIN succeeded
+I: 1 J: 2 W:2MAX: 3 MIN : 5 JCOND : 7
+I MIN succeeded
+I: 1 J: 3 W:7MAX: 3 MIN : 5 JCOND : 7
+I MIN succeeded
+I: 1 J: 4 W:14MAX: 3 MIN : 5 JCOND : 7
+I MIN succeeded
+I: 2 J: 0 W:4MAX: 3 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 2 J: 1 W:2MAX: 3 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 2 J: 2 W:1MAX: 3 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 2 J: 3 W:2MAX: 3 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 2 J: 4 W:8MAX: 3 MIN : 5 JCOND : 6
+I MIN succeeded
+I: 3 J: 0 W:9MAX: 3 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 1 W:5MAX: 3 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 2 W:3MAX: 3 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 3 W:1MAX: 3 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 3 J: 4 W:3MAX: 3 MIN : 5 JCOND : 5
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 0 W:16MAX: 3 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 1 W:10MAX: 3 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 2 W:6MAX: 3 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 3 W:4MAX: 3 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+I: 4 J: 4 W:1MAX: 3 MIN : 5 JCOND : 4
+I MAX succeeded
+I MIN succeeded
+j COND succeeded
+Condition success
